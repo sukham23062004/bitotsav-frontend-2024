@@ -32,8 +32,12 @@
 
 import axios from "axios";
 
-const baseURL = "https://bitotsav-backend-2024.onrender.com/api/v1";
-const myBaseURL = "https://bitotsav-backend-2024.onrender.com/api/v1/users";
+// const baseURL = "https://bitotsav-backend-2024.onrender.com/api/v1";
+// const myBaseURL = "https://bitotsav-backend-2024.onrender.com/api/v1/users";
+const baseURL =
+  "https://bitotsav-backend-2024-production.up.railway.app/api/v1";
+const myBaseURL =
+  "https://bitotsav-backend-2024-production.up.railway.app/api/v1/users";
 
 const publicApiClient = axios.create({
   baseURL: baseURL,
